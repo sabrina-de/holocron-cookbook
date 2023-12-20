@@ -1,0 +1,44 @@
+Holocron supports MDX, a superset of Markdown that allows you to import and use React components within your Markdown documents.
+
+An example of an MDX block is shown below:
+
+<button>
+    a jsx button
+</button>
+
+## What can you do with MDX?
+
+MDX is useful to create more rich websites from your Markdown documents, for example you can add
+- Divide content in numbered steps
+- Show links in cards
+- Add more interactive components
+
+## Holocron components
+
+Holocron has some components built in (you can see them opening the / command and searching for MDX), these components are prefixed with Holocron, for example:
+
+```jsx
+<Holocron.Steps>
+## Step 1
+This is the first step
+
+## Step 2
+This is the second step
+
+## Step 3
+This is the third step
+</Holocron.Steps>
+```
+
+The MDX code above will render the following WYSIWYG block in Holocron:
+
+<Holocron.Steps>
+## Step 1
+This is the first step
+
+## Step 2
+This is the second step
+
+## Step 3
+This is the third step
+</Holocron.Steps>
